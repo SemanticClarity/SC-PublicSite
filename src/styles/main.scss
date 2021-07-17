@@ -19,6 +19,7 @@
 /* app stuff */
 
 body {
+  min-width: 515px;
   color: var(--app-text);
   font-family: "Muli", "Roboto", "Helvetica Neue", "Helvetica", "Arial Nue", "Arial", "sans-serif";
 }
@@ -120,7 +121,7 @@ button {
   max-width: 50rem;
   min-width: 13rem;
   padding: 4rem;
-  margin: 1rem !important;
+  margin: 1rem 13% !important;
   background-color: var(--panel-color) !important;
   color: var(--panel-text);
   min-height: 18rem;
@@ -186,12 +187,12 @@ button {
 
 .home {
   .hero {
-    background: url("../images/dreamstime.jpg") 75% center no-repeat, url("../images/abstractTech.jpg") 0 center no-repeat var(--hero-color);
+    background: url("../images/dreamstime.jpg") 50% center no-repeat, url("../images/abstractTech.jpg") 0 center no-repeat var(--hero-color);
     background-size: contain, cover;
     background-blend-mode: normal, multiply;
     height: 20rem;
     margin: 0;
-    padding: 1rem 25%;
+    padding: 1rem 32%;
 
     h1 {
       font-size: 3rem;
