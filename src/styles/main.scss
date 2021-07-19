@@ -115,13 +115,12 @@ button {
 }
 
 .card {
-  display: inline-block;
+  display: block;
   position: relative;
-  vertical-align: top;
   max-width: 50rem;
   min-width: 13rem;
   padding: 4rem;
-  margin: 1rem 13% !important;
+  margin: 2rem auto !important;
   background-color: var(--panel-color) !important;
   color: var(--panel-text);
   min-height: 18rem;
@@ -199,11 +198,13 @@ button {
       line-height: 4.5rem;
       margin: 4rem 0 1rem 0;
       color: var(--light-text);
+      text-align: center;
     }
     h2 {
       font-size: 2rem;
       line-height: 4rem;
       color: var(--light-text);
+      text-align: center;
     }
   }
 }
