@@ -105,3 +105,9 @@ dist
 .vscode
 
 package-lock.json
+
+logs
+scratch
+uploads
+.npmrc
+.DS_Store

@@ -1,0 +1,107 @@
+{
+  "icons": [
+    {
+      "src": "auto/icons/android/icon_512x512.982bbe7dd16b2569ffbe0c8b1b7ee8f7.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "auto/icons/android/icon_192x192.f0c9847a0923b85645565acfd47a5ca6.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "auto/icons/android/icon_144x144.e96044c59e05a58bf27c6ae03a2905df.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "auto/icons/android/icon_96x96.f8dac815d3d577aa67b5976491c2984d.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "auto/icons/android/icon_72x72.0865c1e4d35c799bc89b42163218d40f.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "auto/icons/android/icon_48x48.044ac54a0ff7b92588078fbc1f197068.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "auto/icons/android/icon_36x36.39e6a81af3493cfd5e5edaac3a4b1133.png",
+      "sizes": "36x36",
+      "type": "image/png"
+    },
+    {
+      "src": "auto/icons/ios/icon_1024x1024.3cc44e0e4c768428721a02c4af86f035.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "auto/icons/ios/icon_1024x1024.3cc44e0e4c768428721a02c4af86f035.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "auto/icons/ios/icon_180x180.5fc85de2e2f4986d973f59e9cbaab6a5.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "auto/icons/ios/icon_167x167.214f36a98ec4b6d0a9d35bb2baf1ba6a.png",
+      "sizes": "167x167",
+      "type": "image/png"
+    },
+    {
+      "src": "auto/icons/ios/icon_152x152.7e424d51125433791b04c8b917dcc5a4.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "auto/icons/ios/icon_120x120.93bddb70bfd29bdc2023bd2b85767888.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "auto/icon_512x512.982bbe7dd16b2569ffbe0c8b1b7ee8f7.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "auto/icon_384x384.fe01b58d8487366ce8a49026283130c7.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "auto/icon_256x256.3cbd43af8c9d60867243a9546b4da46d.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "auto/icon_192x192.f0c9847a0923b85645565acfd47a5ca6.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "auto/icon_128x128.f21fbe421d67a8f5363aa79b875077c7.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "auto/icon_96x96.f8dac815d3d577aa67b5976491c2984d.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Semantic Clarity",
+  "short_name": "AugNext",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Semantic Clarity",
+  "background_color": "#403014",
+  "theme_color": "black"
+}
