@@ -17,8 +17,8 @@ class About extends Elements.Component {
           years of experience and successful engagements to sort through the
           "noise" of technologies, and deliver smart, scalable solutions for
           your business. Contact us and meet the team.</p>
-        <ButtonBar>
-          <Button name="contact" id="contact2" icon="chat" title="Contact Us" kind="secondary">&nbsp;Contact Us Today</Button>
+        <ButtonBar className="buttonBar">
+          <Button name="contact" id="contact2" icon="chat" title="Contact Us" kind="secondary">&nbsp;Contact Us</Button>
         </ButtonBar>
       </div>
     );

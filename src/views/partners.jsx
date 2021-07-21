@@ -22,9 +22,10 @@ class Partners extends Elements.Component {
           successful solutions. Leverage our expertise and the strength of our
           partners.</p>
         <figure className="banners">
-          <img src={Acquia} alt="Acquia" title="Acquia" />
-          <img src={AWS} alt="Amazon Web Services" title="Amazon Web Services" />
-          <img src={HPE} alt="Hewlett Packard Enterprise" title="Hewlett Packard Enterprise" />
+          <div>LFPH</div>
+          <div>CCI</div>
+          <div>ToIP</div>
+          <div>GHP</div>
         </figure>
       </div>
     );
