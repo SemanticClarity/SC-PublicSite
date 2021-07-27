@@ -12,7 +12,7 @@ class Partners extends Elements.Component {
   render() {
     return (
       <div id="partners" name="partners" className="section">
-        <Heading level="1">Partners</Heading>
+        <Heading level="1">Collaborations</Heading>
         <p>SemanticClarity accelerates the delivery of value by leveraging our
           partners’ state-of-the-art technologies. With our longstanding
           partnerships and deep experience, we consistently help our customers
