@@ -19,27 +19,19 @@ export const HAMBURGER_ITEMS = [
 
 export const MENU_ITEMS = [
   {
+    "id": "tools",
+    "event": "tools",
+    "icon": null,
+    "name": "tools",
+    "spacer": false,
+    "title": "Tools"
+  },
+  {
     "id": "solutions",
     "event": "solutions",
     "icon": null,
-    "name": "Solutions",
+    "name": "solutions",
     "spacer": false,
     "title": "Solutions"
-  },
-  {
-    "id": "product",
-    "event": "product",
-    "icon": null,
-    "name": "Product",
-    "spacer": false,
-    "title": "Product"
-  },
-  {
-    "id": "blog",
-    "event": "blog",
-    "icon": null,
-    "name": "Blog",
-    "spacer": false,
-    "title": "Blog"
   }
 ];

@@ -16,15 +16,18 @@ class Home extends Elements.Component {
   render() {
     return (
       <div id={this.props.id} name={this.props.name} className="home">
-        <Hero />
-        <ButtonBar className="section">
+        <div className="hero-text">
+          <Hero />
+          <img src="../images/dreamstime.jpg" />
+        </div>
+        {/* <ButtonBar className="section">
           <Button name="contact" id="contact" icon="chat" title="Contact Us" kind="secondary">&nbsp;Contact Us Today</Button>
-        </ButtonBar>
+        </ButtonBar> */}
         <SolutionsCard />
         <ProductsCard />
         <Partners />
-        <About />
         <News />
+        <About />
         <Footer />
       </div>
     );

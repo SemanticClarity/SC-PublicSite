@@ -19,7 +19,7 @@
 /* app stuff */
 
 body {
-  min-width: 515px;
+  min-width: 640px;
   color: var(--app-text);
   font-family: "Muli", "Roboto", "Helvetica Neue", "Helvetica", "Arial Nue", "Arial", "sans-serif";
 }
@@ -161,10 +161,23 @@ button {
 
   figure {
     img {
-      margin: 1rem;
+      margin: 0 1rem;
+    }
+
+    &.banners {
+      margin: 0;
+      div {
+        display: inline-block;
+        margin: 1rem;
+      }
     }
   }
+
+  p {
+    margin: 0 1rem;
+  }
 }
+
 
 /* add blur to menu and dialog backgrounds */
 .blur, .wrapper .material-design-hamburger.model .material-design-hamburger__icon {
@@ -185,13 +198,21 @@ button {
 }
 
 .home {
-  .hero {
-    background: url("../images/dreamstime.jpg") 50% center no-repeat, url("../images/abstractTech.jpg") 0 center no-repeat var(--hero-color);
-    background-size: contain, cover;
-    background-blend-mode: normal, multiply;
-    height: 20rem;
+  .hero-text {
+    display: flex; justify-content: center; background: url(../images/abstractTech.jpg) 0 center no-repeat var(--hero-color); 
+    background-size: cover;
+    background-blend-mode: overlay; height: 20rem;
     margin: 0;
-    padding: 1rem 32%;
+    padding: 1rem;
+    @media screen and (max-width: 935px){
+      img {
+        display: none;
+      }
+    }
+  }
+  
+  .hero {
+    margin: 1rem 2rem;
 
     h1 {
       font-size: 3rem;
@@ -210,7 +231,7 @@ button {
 }
 
 .footer {
-  margin: 1rem auto;
+  margin: 0 1rem;
   min-width: 13rem;
   max-width: 75rem;
 
