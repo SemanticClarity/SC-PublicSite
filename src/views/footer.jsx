@@ -1,5 +1,4 @@
 import { Elements } from "@augmentedjs/elements";
-const year = new Date();
 
 class Footer extends Elements.Component {
   constructor(props = {}) {
@@ -11,12 +10,12 @@ class Footer extends Elements.Component {
       <footer id="footer" name="footer" className="footer">
         <div className="links">
           <nav>
-            <a href="#">Tools</a>
-            <a href="#">Solutions</a>
+            <a href="#tools">Tools</a>
+            <a href="#solutions">Solutions</a>
           </nav>
         </div>
         <div className="copy">
-          <p>© Copyright { year.getFullYear() } SemanticClarity. All Rights Reserved.</p>
+          <p>© Copyright { YEAR } SemanticClarity. All Rights Reserved.</p>
         </div>
       </footer>
     );

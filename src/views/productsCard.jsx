@@ -10,12 +10,6 @@ class ProductsCard extends Elements.Component {
     return (
       <Card name="productsCard" id="productsCard" className="productsCard">
         <Heading level="1">Semantic Data Pipelines</Heading>
-        {/* <p>Delivering targeted, relevant product recommendations increases
-          customer satisfaction and sales. Leverage our proven offering and
-          enhance your customers' online experience by providing relevant
-          product recommendations.</p>
-        <p>Try our SaaS-based Product Recommender and deliver actionable results
-          for your online business.</p> */}
           <p>Accessing, verifying, encrypting data in a personalized context of use, 
           and making that data available to others on an individually consented basis is what semantic datapipelines are 
           designed for.</p>   

@@ -8,6 +8,14 @@ export const HAMBURGER_ITEMS = [
     "title": "Go to homepage"
   },
   {
+    "id": "tools",
+    "event": "tools",
+    "icon": null,
+    "name": "tools",
+    "spacer": false,
+    "title": "Tools"
+  },
+  {
     "id": "solutions",
     "event": "solutions",
     "icon": null,

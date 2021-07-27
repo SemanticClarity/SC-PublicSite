@@ -1,12 +1,12 @@
 import { Elements } from "@augmentedjs/elements";
-// import { Navigation } from "@augmentedjs/elements-navigation";
 import { Appbar as BaseAppbar } from "@augmentedjs/elements-appbar";
 /* custom */
-import HamburgerMenu from "./nav.jsx";
-import Menu from "./menu.jsx";
+// import HamburgerMenu from "./hamburger.jsx";
+import Menu from "./navigation.jsx";
 import Logo from "./logo.jsx";
 
-import { HAMBURGER_ITEMS, MENU_ITEMS } from "../constants.js";
+// import { HAMBURGER_ITEMS, MENU_ITEMS } from "../constants.js";
+import { MENU_ITEMS } from "../constants.js";
 
 class Appbar extends Elements.Component {
   constructor(props = {}) {

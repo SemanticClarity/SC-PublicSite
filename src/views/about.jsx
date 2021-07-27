@@ -8,7 +8,7 @@ class About extends Elements.Component {
 
   openMail = () => {
     window.location.href = "mailto:jwalker@semanticclarity.com";
-  }  
+  };
 
   render() {
     return (

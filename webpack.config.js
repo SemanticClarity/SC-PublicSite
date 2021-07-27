@@ -96,7 +96,8 @@ module.exports = {
       AUTO_INVOKE: true,
       GA: isProd ? true: false,
       "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV),
-      "process.env.DEBUG": JSON.stringify(process.env.DEBUG)
+      "process.env.DEBUG": JSON.stringify(process.env.DEBUG),
+      YEAR: new Date().getFullYear()
     }),
     new HtmlWebPackPlugin({
       template: "./src/index.html",

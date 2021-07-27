@@ -6,8 +6,6 @@ import Appbar from "./appbar.jsx";
 import Dialogs from "./dialogs.jsx";
 import Mediator from "../mediator.js";
 
-// import {  } from "../messages.js";
-
 class Main extends Elements.Component {
   constructor(props = {}) {
     super(props);
