@@ -5,12 +5,12 @@ class Menu extends Navigation {
     super(props);
   };
 
-  tools() {
+  tools = () => {
     console.debug("menu click - tools");
     window.location = "#tools";
   };
 
-  solutions() {
+  solutions = () => {
     console.debug("menu click - solutions");
     window.location = "#solutions";
   };

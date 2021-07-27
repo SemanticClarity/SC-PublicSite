@@ -6,6 +6,10 @@ class About extends Elements.Component {
     super(props);
   };
 
+  openMail = () => {
+    window.location.href = "mailto:jwalker@semanticclarity.com";
+  }  
+
   render() {
     return (
       <div id="about" name="about" className="section">
@@ -18,7 +22,7 @@ class About extends Elements.Component {
           "noise" of technologies, and deliver smart, scalable solutions for
           your business. Contact us and meet the team.</p>
         <ButtonBar className="buttonBar">
-          <Button name="contact" id="contact2" icon="chat" title="Contact Us" kind="secondary">&nbsp;Contact Us</Button>
+          <Button name="contact" id="contact2" icon="chat" title="Contact Us" kind="secondary" onClick={this.openMail}>&nbsp;Contact Us</Button>
         </ButtonBar>
       </div>
     );

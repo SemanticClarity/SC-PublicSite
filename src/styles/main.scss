@@ -193,6 +193,12 @@ button {
   color: var(--primary-color-light) !important;
 }
 
+.toolbar.navigation {
+  ul li {
+    cursor: pointer;
+  }
+} 
+
 .section h1, h1, h2 {
   color: var(--light-text);
 }
@@ -237,6 +243,7 @@ button {
 
   .links {
     a {
+      cursor: pointer;
       display: inline-block;
       margin: 0 1rem 0 0;
     }
