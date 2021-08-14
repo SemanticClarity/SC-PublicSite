@@ -19,10 +19,14 @@ class Appbar extends Elements.Component {
       <BaseAppbar id={this.props.id} name={this.props.name} mediator={this.props.mediator}
           channel={this.props.channel} identifier={this.props.identifier} notification>
         {/* <HamburgerMenu id="hamburger" name="hamburger" title={APP_NAME} items={HAMBURGER_ITEMS}/> */}
-        <Logo id="logo" name="logo" className="company"/>
+        <Logo id="logo" name="logo" className="company" onClick={this.home}/>
         <Menu id="menu" name="menu" items={MENU_ITEMS}/>
       </BaseAppbar>
     );
+  };
+
+  home = () => {
+    window.location = "#home";
   };
 };
 

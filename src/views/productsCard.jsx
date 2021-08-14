@@ -16,10 +16,15 @@ class ProductsCard extends Elements.Component {
           <p>Our semantic datapipeline framework supports the creation of purpose built data sets that are ‘sealed’ as 
             verifiable credentials and made available to  consented parties for any purpose.</p>
         <ButtonBar>
-          <Button name="products" id="products" icon="work_outline" title="More about products" kind="secondary">&nbsp;More About Semantic Data Pipelines</Button>
+          <Button name="products" id="products" icon="work_outline" title="More about products" kind="secondary" onClick={this.tools}>&nbsp;More About Semantic Data Pipelines</Button>
         </ButtonBar>
       </Card>
     );
+  };
+
+  tools = () => {
+    console.debug("menu click - tools");
+    window.location = "#tools";
   };
 };
 

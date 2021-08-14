@@ -10,7 +10,7 @@ class Logo extends Elements.Component {
   render() {
     return (
       <div id={this.props.id} name={this.props.name} className={this.props.className}>
-        <img src={LogoImage} alt="SC" />
+        <img src={LogoImage} alt="SemanticClarity" />
         <Heading id="main_logo" name="main_logo" level="1">Semantic<span className="highlight">Clarity</span></Heading>
       </div>
     );

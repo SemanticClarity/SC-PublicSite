@@ -6,7 +6,7 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
 const HtmlWebpackPartialsPlugin = require("html-webpack-partials-plugin");
 const WebpackPwaManifest = require("webpack-pwa-manifest");
-
+const CopyPlugin = require("copy-webpack-plugin");
 const devServer = require("./devServer.js");
 const middleware = require("./middleware.js");
 const Package = require("./package.json");
@@ -114,10 +114,23 @@ module.exports = {
       },
       xhtml: true
     }),
+    
     new HtmlWebpackPartialsPlugin({
       path: "./src/partials/noscript.html",
       location: "head",
       priority: "low",
+      inject: true
+    }),
+    new HtmlWebpackPartialsPlugin({
+      path: "./src/partials/style.html",
+      location: "head",
+      priority: "low",
+      inject: true
+    }),
+    new HtmlWebpackPartialsPlugin({
+      path: "./src/partials/main.html",
+      location: "body",
+      priority: "high",
       inject: true
     }),
     new FaviconsWebpackPlugin({
@@ -189,7 +202,11 @@ module.exports = {
           destination: path.join("icons", "android")
         }
       ]
-    })
+    }),
+    new CopyPlugin({
+      patterns: [
+      { from: "src/robots.txt", to: "robots.txt" }
+    ]}),
   ],
   // optimization
   optimization: !isProd ? {} :

@@ -15,10 +15,15 @@ class SolutionsCard extends Elements.Component {
             and secure encryption of PHI data.</p> 
 
         <ButtonBar>
-          <Button name="solutions" id="solutions" icon="build" title="More about solutions" kind="secondary">&nbsp;More About FHIRPak Tools</Button>
+          <Button name="solutions" id="solutions" icon="build" title="More about solutions" kind="secondary" onClick={this.solutions}>&nbsp;More About FHIRPak Tools</Button>
         </ButtonBar>
       </Card>
     );
+  };
+
+  solutions = () => {
+    console.debug("menu click - solutions");
+    window.location = "#solutions";
   };
 };
 
